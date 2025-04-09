@@ -83,12 +83,12 @@ namespace MRMotifs.InstantContentPlacement.DepthEffects
 
         private void FixedUpdate()
         {
-            if (!m_isLaunched || m_rb.linearVelocity.magnitude <= 0)
+            if (!m_isLaunched || m_rb.velocity.magnitude <= 0)
             {
                 return;
             }
 
-            var ray = new Ray(transform.position, m_rb.linearVelocity.normalized);
+            var ray = new Ray(transform.position, m_rb.velocity.normalized);
             if (m_raycastManager.Raycast(ray, out var hit, maxDistance: proximityCheckValue)
                 || hit.status == EnvironmentRaycastHitStatus.HitPointOccluded)
             {
