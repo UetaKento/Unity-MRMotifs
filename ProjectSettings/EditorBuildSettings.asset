@@ -5,33 +5,39 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/MRMotifsHome.unity
     guid: cbae9f7d29ae56649b9b96f04193ad89
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/PassthroughTransitioning/Scenes/PassthroughFaderUnderlay.unity
     guid: c439005c7779b504eb4ddab2b5fc7697
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/PassthroughTransitioning/Scenes/PassthroughFaderSelective.unity
     guid: 363c627f547d14a42b49676510598eff
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/PassthroughTransitioning/Scenes/PassthroughFaderSlider.unity
     guid: 54bfdb8f613415b499ba62dd59ac97fd
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/PassthroughTransitioning/Scenes/PassthroughFaderDissolve.unity
     guid: 04d3df86ffb21854da9450263eea9bb2
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/SharedActivities/Scenes/Chess.unity
     guid: 805ba54878fed5b46adcecbe0dea32aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/SharedActivities/Scenes/MovieCowatching.unity
     guid: 14ef1d0bc5d0217429ee1e3502233221
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/InstantContentPlacement/Scenes/DepthEffects.unity
     guid: 8d1c4dd34e4b68243898ee4d067493e5
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRMotifs/InstantContentPlacement/Scenes/InstantContentPlacement.unity
     guid: 94e5d96fe23133a4c88c19940426946a
+  - enabled: 0
+    path: Assets/Kenty/PassthroughFaderDissolve_kenty.unity
+    guid: fdd8f75be77d0df488faf79862b4729c
+  - enabled: 1
+    path: Assets/Kenty/Template_2.unity
+    guid: bb7b5769376c47a40b5ec7d37cfc3763
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 76cb85526c074c8458be822a82877922, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 164d77ef9199b154685194b5e1feab47, type: 2}
